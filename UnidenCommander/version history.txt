@@ -1,0 +1,15 @@
+﻿2008-12-08
+- Replaced _ with . in step size display.
+- Added options to specify paths for log files.
+- Added Reception logging settings.
+- Changed settings screen layout.
+
+0.3.2 - 2008-12-08
+- Implemented version check routine in about form.
+- Changed background button on buttons (adjusted height).
+
+0.3.1 - 2008-12-07
+- Fixed AM button.
+- Made windows larger.
+- Used Windows system font for buttons.
+- Implemented PushButton to indicate state of modulation and stepsize (animated buttons).

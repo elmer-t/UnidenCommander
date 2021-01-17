@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<UnidenCommander>
+  
+  <Receptions>
+
+    <Reception>
+      <Date></Date>
+      <Frequency></Frequency>
+      <Modulation></Modulation>
+      <SignalStrength></SignalStrength>
+      <StepSize></StepSize>
+      <Attenuator></Attenuator>
+      <Muting></Muting>
+      <CenterFrequency></CenterFrequency>
+      <BandNumber></BandNumber>
+      <BandName></BandName>
+      <ChannelNumber></ChannelNumber>
+      <ChannelName></ChannelName>
+    </Reception>
+    
+  </Receptions>
+  
+</UnidenCommander>

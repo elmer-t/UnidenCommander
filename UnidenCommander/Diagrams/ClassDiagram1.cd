@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="UnidenCommander.Scanner.CommandSets.BaseCommandSet" Collapsed="true">
+    <Position X="9.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JPRIRkFAXMkgTEICYESXIhSAEBwrDJiClaJlyFhFCgE=</HashCode>
+      <FileName>Scanner\CommandSets\BaseCommandSet.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnidenCommander.Scanner.CommandSets.BC780CommandSet" Collapsed="true">
+    <Position X="10.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAACAAAgAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Scanner\CommandSets\BC780CommandSet.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnidenCommander.Scanner.CommandSets.BC785CommandSet" Collapsed="true">
+    <Position X="8.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAABAAAAAAAACAAAAAACAAAgAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Scanner\CommandSets\BC785CommandSet.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnidenCommander.Scanner.CommandSets.GenericCommandSet" Collapsed="true">
+    <Position X="9.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scanner\CommandSets\GenericCommandSet.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnidenCommander.Scanner.KeyPads.BC780KeyPad" Collapsed="true">
+    <Position X="8.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEAKAAAAAAQBEAgAACAAAAAAEFAEQBAAAQAAIAAAAA=</HashCode>
+      <FileName>Scanner\Keypads\KeyPad780.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnidenCommander.Scanner.KeyPads.GenericKeyPad" Collapsed="true">
+    <Position X="9.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEAKAgAAAQQBEAgAACAAAQAAEFAkQBAMPwDAIAIAAA=</HashCode>
+      <FileName>Scanner\Keypads\KeyPadGeneric.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnidenCommander.Scanner.KeyPads.BC785KeyPad" Collapsed="true">
+    <Position X="10.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEAKAAAAAAQBEAgAACAAAAAAEFAEQAAAAQAAIAAAAA=</HashCode>
+      <FileName>Scanner\Keypads\KeyPad785.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnidenCommander.Scanner.Connection" Collapsed="true">
+    <Position X="14.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAIAAAABgIQAAAAAAAAABCBAKAAQACAAAAACCQAQ=</HashCode>
+      <FileName>Scanner\Connection.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnidenCommander.Scanner.SystemInformation" Collapsed="true">
+    <Position X="16.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Scanner\Data.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnidenCommander.Scanner.Models.BaseScannerModel" Collapsed="true">
+    <Position X="13" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IMSBAgAgiNAgBmVCjECQIKgAi6BoLRDkAEhgRADCDIE=</HashCode>
+      <FileName>Scanner\Models\BaseScannerModel.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="UnidenCommander.Scanner.SignalStrength" Collapsed="true">
+    <Position X="14.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIBAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scanner\Data.vb</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="UnidenCommander.Scanner.Command" Collapsed="true">
+    <Position X="13" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAEQAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scanner\Command.vb</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="UnidenCommander.Scanner.CommandSets.ICommandSet" Collapsed="true">
+    <Position X="7.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JPRIRgEAVMkgREICYESXAhSAEBwrBJiCEaJlyFhFAAA=</HashCode>
+      <FileName>Scanner\CommandSets\ICommandSet.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="UnidenCommander.Scanner.Modulations" Collapsed="true">
+    <Position X="14.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAABgABAIAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Scanner\Data.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UnidenCommander.Scanner.StepSizes" Collapsed="true">
+    <Position X="14.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAIAAAAAQAAAABAIQAAgCAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Scanner\Data.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UnidenCommander.Scanner.ScannerModels" Collapsed="true">
+    <Position X="16.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAIAAAAAFA=</HashCode>
+      <FileName>Scanner\Data.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UnidenCommander.Scanner.ScanDirections" Collapsed="true">
+    <Position X="13" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Scanner\Data.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UnidenCommander.Scanner.AlphaTagType" Collapsed="true">
+    <Position X="13" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAgEAAAAAAAAAAAIAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scanner\Data.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UnidenCommander.Scanner.Properties" Collapsed="true">
+    <Position X="16.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAgANAgAAAAAAAAAKAAAoAgBACgAEggQAAAAAA=</HashCode>
+      <FileName>Scanner\Data.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UnidenCommander.Scanner.ScannerBoolean" Collapsed="true">
+    <Position X="14.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAIA=</HashCode>
+      <FileName>Scanner\ScannerBoolean.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
