@@ -1,7 +1,7 @@
 # UnidenCommander
 Control your [Uniden UBC785XLT](https://rigreference.com/rigs/2469-uniden-bearcat-ubc785xlt) scanner from your PC.
 
-==Please note this project is purely for archival and educational purposes. It is no longer maintained, bugs will not be fixed.==
+**Please note this project is purely for archival and educational purposes. It is no longer maintained, bugs will not be fixed.**
 
 ## What is it?
 UnidenCommander provides control over your Uniden Bearcat scanner from your PC. All scanner buttons are available through UnidenCommander. UnidenCommander even adds some unique features to your scanner.
