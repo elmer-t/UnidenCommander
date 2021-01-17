@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1419AB19-8B3A-443B-87DA-90CE2D659C9A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "UnidenCommander", "UnidenCommander\UnidenCommander.vbproj", "{44643611-CAD8-46C4-AED6-4AB2E642D52B}"
 EndProject
@@ -12,6 +17,11 @@ EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "UnidenCommander.Scanner", "UnidenScanner\UnidenCommander.Scanner.vbproj", "{9891EB42-1674-46D2-AAF4-09C96F0361FC}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "UnidenCommander.Utils", "UnidenCommander.Utils\UnidenCommander.Utils.vbproj", "{C8EC43F1-E826-48E8-8EA1-9EE383E7D610}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Screenshots", "Screenshots", "{3102E3B4-7FFD-4614-A11A-BC28A644DA35}"
+	ProjectSection(SolutionItems) = preProject
+		UnidenCommander v.0.3 (main).png = UnidenCommander v.0.3 (main).png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +46,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3102E3B4-7FFD-4614-A11A-BC28A644DA35} = {1419AB19-8B3A-443B-87DA-90CE2D659C9A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1CFB7C80-E7D8-4404-B831-D7ADEBCB7707}
